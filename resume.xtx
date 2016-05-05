@@ -1,0 +1,168 @@
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Linge}{Dai}{ \urlstyle{same}
+\href{mailto:lingo.dai@gmail.com}{lingo.dai@gmail.com} | 713.471.2237
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.29\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{Rice University}
+\descript{MS in Computer Science}
+\location{May 2014 | Houston, Texas}
+\location{ Cum. GPA: 4.0 / 4.0}
+\sectionsep
+
+\subsection{Rice University}
+\descript{BA in Computer Science}
+\location{May 2013 | Houston, Texas}
+Cum Laude\\
+\location{ Cum. GPA: 3.83 / 4.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Coursera}
+Functional Programming \\
+Reactive Programming \\
+Machine Learning \\
+\sectionsep
+
+\subsection{Graduate}
+Advanced Compiler Construction\\
+Computer Systems Architecture \\
+\sectionsep
+
+\subsection{Undergraduate}
+Distributed Systems \\
+Operating Systems \\
+Computer Security \\
+Computer Networks \\
+Database Systems \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+Scala \textbullet{} C \textbullet{} Java \textbullet{} Python \\
+Pants \textbullet{} Aurora/Mesos \textbullet{} \\
+Key-Value Store \textbullet{} MySQL \\
+Microservices Architecture
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications}
+\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{resume}
+\nocite{*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Twitter}
+\descript{| Software Engineer }
+\location{July 2014 - Present | San Francisco, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Working on the Core Services team
+\item Builds and Maintains core infrastructure comprised of highly efficient large scale distributed services which define the core components of Twitter: \\
+users, tweets, social graph, and URLs.
+\item Serves as the go-to mentor for new engineers on the team
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Google}
+\descript{| Software Engineering Intern }
+\location{May 2013 – Aug 2013 | Mountain View, CA}
+\begin{tightemize}
+\item Worked on the AdSense team
+\item Developed an internal tool using Google MapReduce framework to analyze the event logs for Google Programmable Ads and generate user-friendly reports.
+\item Enabled attribute-level reporting functionality to support Google Dynamic Ads Solutions team to develop better targeting strategies for the clients.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{National Instruments}
+\descript{| Software Engineering Intern }
+\location{May 2011 – Aug 2011 | Austin, TX}
+\begin{tightemize}
+\item Work on the Real-Time team
+\item Developed and benchmarked the mechanism of offloading software concurrent access lock of the shared memory to the PCIe Bus on the FPGA to reduce the overhead of DMA FIFO access
+\item Researched into TCP Offload Engine that exploits the functionality of FPGA to offload TCP/IP stack from CPU.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Rice Computer Architecture Lab}
+\descript{| Researcher}
+\location{Professor Scott Rixner}
+\location{Jan 2012 – May 2014 | Houston, TX}
+Worked on developing novel thread scheduling techniques on resource-constraint embedded systems
+\begin{tightemize}
+\item Implemented the Owl system, a complete embedded Python run-time system on a ARM Cortex-M4 microcontroller.
+\item Benchmarked different thread scheduling algorithms on Medusa, a programming language and virtual machine for developing concurrent microcontroller based systems to reduce overhead and thread communication latency
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Rice Multi-Robot Systems Lab}
+\descript{| Researcher}
+\location{Dr. James McLurkin}
+\location{May 2010 – May 2011 | Houston, TX}
+Designed and developed the IR communication system on the ARM Cortex-M3 microcontroller-based MRONE robots to support inter-robot communication and nearby robot location computation.
+\sectionsep
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
