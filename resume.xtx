@@ -1,6 +1,9 @@
 \documentclass[]{resume}
 \usepackage{fancyhdr}
 
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
 \pagestyle{fancy}
 \fancyhf{}
 
@@ -82,14 +85,12 @@ Scala \textbullet{} C \textbullet{} Java \textbullet{} Python \\
 Pants \textbullet{} Aurora/Mesos \textbullet{} \\
 Key-Value Store \textbullet{} MySQL \\
 Microservices Architecture
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Publications}
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
 \bibliographystyle{abbrv}
 \bibliography{resume}
 \nocite{*}
@@ -109,9 +110,18 @@ Microservices Architecture
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{Uber}
+\descript{| Software Engineer }
+\location{Sept 2016 - Present | San Francisco, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Working on Map Data team
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Twitter}
 \descript{| Software Engineer }
-\location{July 2014 - Present | San Francisco, CA}
+\location{July 2014 - Sept 2016 | San Francisco, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Working on the Core Services team
