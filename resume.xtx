@@ -111,41 +111,38 @@ Microservices Architecture
 
 \section{Experience}
 \runsubsection{Uber}
-\descript{| Software Engineer }
+\descript{| Software Engineer | Map Data }
 \location{Sept 2016 - Present | San Francisco, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Working on Map Data team
+\item Builds and maintains scalable data processing pipeline for Uber Maps that powers the core trip flow.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Twitter}
-\descript{| Software Engineer }
+\descript{| Software Engineer | Core Services }
 \location{July 2014 - Sept 2016 | San Francisco, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Working on the Core Services team
-\item Builds and Maintains core infrastructure comprised of highly efficient large scale distributed services which define the core components of Twitter: \\
+\item Builds and maintains core infrastructure comprised of highly efficient large scale distributed services which define the core components of Twitter: \\
 users, tweets, social graph, and URLs.
 \item Serves as the go-to mentor for new engineers on the team
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Google}
-\descript{| Software Engineering Intern }
+\descript{| Software Engineering Intern | AdSense }
 \location{May 2013 – Aug 2013 | Mountain View, CA}
 \begin{tightemize}
-\item Worked on the AdSense team
 \item Developed an internal tool using Google MapReduce framework to analyze the event logs for Google Programmable Ads and generate user-friendly reports.
 \item Enabled attribute-level reporting functionality to support Google Dynamic Ads Solutions team to develop better targeting strategies for the clients.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{National Instruments}
-\descript{| Software Engineering Intern }
+\descript{| Engineering Intern | Real-Time }
 \location{May 2011 – Aug 2011 | Austin, TX}
 \begin{tightemize}
-\item Work on the Real-Time team
 \item Developed and benchmarked the mechanism of offloading software concurrent access lock of the shared memory to the PCIe Bus on the FPGA to reduce the overhead of DMA FIFO access
 \item Researched into TCP Offload Engine that exploits the functionality of FPGA to offload TCP/IP stack from CPU.
 \end{tightemize}
