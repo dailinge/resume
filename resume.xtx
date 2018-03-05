@@ -111,11 +111,12 @@ Microservices Architecture
 
 \section{Experience}
 \runsubsection{Uber}
-\descript{| Software Engineer | Map Data }
+\descript{| Software Engineer | Personal Safety }
 \location{Sept 2016 - Present | San Francisco, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Builds and maintains scalable data processing pipeline for Uber Maps that powers the core trip flow.
+\item Builds and maintains real-time driver identity verification platform
+\item Built and maintained scalable data processing pipeline for Uber Maps that powers the core trip flow.
 \end{tightemize}
 \sectionsep
 
